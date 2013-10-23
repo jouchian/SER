@@ -1,0 +1,18 @@
+{
+"name": "Search Event Recorder",
+"version": "0.0.1",
+"manifest_version": 2,
+
+"description": "SER - Search Event Recorder",
+"icons": {
+"128": "icon.png"
+},
+
+"content_security_policy": "script-src 'self'; object-src 'self'",
+
+"browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+
+}
